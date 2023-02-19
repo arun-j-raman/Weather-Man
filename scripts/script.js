@@ -9,7 +9,7 @@ let visibVal = document.getElementById('visibility');
 const searchInp = document.getElementById('search');
 const searchButton = document.getElementById('searchbtn');
 const resetButton = document.getElementById('reset');
-const apikey = "";
+const apikey = "API_KEY";
 
 searchButton.addEventListener("click", (e) => {
     e.preventDefault();
